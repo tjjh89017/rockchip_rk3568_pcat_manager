@@ -77,7 +77,8 @@ static PCatModemManagerUSBData g_pcat_modem_manager_supported_dev_list[] =
         .device_type = PCAT_MODEM_MANAGER_DEVICE_GENERAL,
         .id_vendor = 0x2C7C,
         .id_product = 0,
-        .external_control_exec = "quectel-cm",
+        //.external_control_exec = "quectel-cm",
+        .external_control_exec = NULL,
         .external_control_exec_is_daemon = FALSE
     }
 };
